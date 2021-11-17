@@ -1,8 +1,3 @@
-<style type="text/css">
-div{
-  display=flex;
-  justify-content=center;
-</style>
 ### 👋 Bonjour, je suis Sofiane !
 
 - 📖 Développeur depuis 2020
@@ -19,9 +14,7 @@ div{
 
 
 
-<div style="display=flex;
-  justify-content=center;">
-
+<div style="margin:auto;">
 ![My github stats](https://github-readme-stats.vercel.app/api?username=sofiane-wattiez&theme=gotham&show_icons=true)
 <br><br>
 ![Top Languages Card](https://github-readme-stats.vercel.app/api/top-langs/?username=sofiane-wattiez&theme=gotham)
