@@ -6,8 +6,8 @@
 - 🎓 J'ai suivi une formation "AWS Cloud Practitioner" ☁️ 2021
 - 🔭 J'ai suis actuellement en alternance afin de préparer un Bac +3 de "Concepteur Développeur D'application" avec la societé SCC FRANCE
 - ⚙️ Je suis qualifié en front-end/back-end je n'ai pas spécialement de préférences
-- 🌱 Je travaille actuellement mes compétences dans différent frameworks (Symfony / React.JS / Node.JS) 
-- 🌱 Je travaille actuellement mes compétences dans ces langages (Python / Bash / Solidity / ) 
+- 🌱 Je travaille actuellement mes compétences dans différents frameworks (Symfony / React.JS / Node.JS) 
+- 🌱 Je travaille actuellement mes compétences dans ces langages (Python / Bash / Solidity) 
 
 - #️⃣ Prochaine étape : RNCP 6 et Les solutions Cloud...  Cloud Power ☁️
 
