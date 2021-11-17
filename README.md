@@ -11,12 +11,8 @@
 
 - #️⃣ Prochaine étape : RNCP 6 et Les solutions Cloud...  Cloud Power ☁️
 
-
-
-
-<div style="margin:auto;">
 ![My github stats](https://github-readme-stats.vercel.app/api?username=sofiane-wattiez&theme=gotham&show_icons=true)
 <br><br>
 ![Top Languages Card](https://github-readme-stats.vercel.app/api/top-langs/?username=sofiane-wattiez&theme=gotham)
-</div>
+
 <hr>
