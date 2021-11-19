@@ -2,7 +2,7 @@
 
 - 📖 Developer since 2020
 - 💬 Passionate about  development and architecture.
-- 🎓 I followed a training of "Web and Mobile Web Developer" 2020/2021.
+- 🎓 I followed a training course "Web and Mobile Web Developer" 2020/2021.
 - 🎓 I have taken a training course "AWS Cloud Practitioner" ☁️ 2021.
 - 🔭 I am currently doing a work-study program to prepare a Bac +3 of "Concepteur Développeur D'application" with the company SCC.
 - ⚙️ I am qualified in front-end/back-end I don't have any particular preferences.
