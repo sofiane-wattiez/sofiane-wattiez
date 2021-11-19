@@ -1,18 +1,17 @@
-### 👋 Bonjour, je suis Sofiane !
+### 👋 Hello, I'm Sofiane!
 
-- 📖 Développeur depuis 2020
-- 💬 Passioné de développement informatique dans la globalité et d'architecture informatique.
-- 🎓 J'ai suivi une formation de "Développeur Web et Web Mobile" 2020/2021.
-- 🎓 J'ai suivi une formation "AWS Cloud Practitioner" ☁️ 2021.
-- 🔭 J'ai suis actuellement en alternance afin de préparer un Bac +3 de "Concepteur Développeur D'application"
-      avec la societé SCC.
-- ⚙️ Je suis qualifié en front-end/back-end je n'ai pas spécialement de préférences.
-- 🌱 Je travaille actuellement mes compétences dans différents frameworks (Symfony / React.JS / Node.JS). 
-- 🌱 Je travaille actuellement mes compétences dans ces langages (Python / Bash / Solidity). 
-- ⚙️ Je travaille sur GitLab en ce moment d'ou le baisse d'activité visible ici.
+- 📖 Developer since 2020
+- 💬 Passionate about  development and architecture.
+- 🎓 I followed a training of "Web and Mobile Web Developer" 2020/2021.
+- 🎓 I have taken a training course "AWS Cloud Practitioner" ☁️ 2021.
+- 🔭 I am currently doing a work-study program to prepare a Bac +3 of "Concepteur Développeur D'application" with the company SCC.
+- ⚙️ I am qualified in front-end/back-end I don't have any particular preferences.
+- 🌱 I am currently working on my skills in different frameworks (Symfony / React.JS / Node.JS).
+- 🌱 I am currently working on my skills in these languages (Python / Bash / Solidity). 
+- ⚙️ I'm working on GitLab at the moment hence the drop in activity visible here.
 
-- #️⃣ Prochaine étape : RNCP 6 et Les solutions Cloud...  Cloud Power ☁️
-- #️⃣ Prochaine étape : Développement Blockchain ☁️
+- #️⃣ Next step: Frendch RNCP 6 and Cloud solutions... Cloud Power ☁️
+- #️⃣ Next step: Blockchain development ☁️
 
 ![My github stats](https://github-readme-stats.vercel.app/api?username=sofiane-wattiez&theme=gotham&show_icons=true)
 ![Top Languages Card](https://github-readme-stats.vercel.app/api/top-langs/?username=sofiane-wattiez&theme=gotham)
