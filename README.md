@@ -10,8 +10,8 @@
 - 🌱 I am currently working on my skills in these languages (Python / Bash / Solidity). 
 - ⚙️ I'm working on GitLab at the moment hence the drop in activity visible here.
 
-- #️⃣ Next step: French RNCP 6 and Cloud solutions... Cloud Power ☁️
-- #️⃣ Next step: Blockchain development ☁️
+- #️⃣ Next step: French RNCP 6 and Cloud solutions... ☁️
+- #️⃣ Next step: Blockchain development
 
 ![My github stats](https://github-readme-stats.vercel.app/api?username=sofiane-wattiez&theme=gotham&show_icons=true)
 ![Top Languages Card](https://github-readme-stats.vercel.app/api/top-langs/?username=sofiane-wattiez&theme=gotham)
