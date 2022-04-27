@@ -4,7 +4,7 @@
 - 💬 Passionate about  development , architecture & network.
 - 🎓 I followed a training course "Web and Mobile Web Developer" 2020/2021.
 - 🎓 I have taken a training course "AWS Cloud Practitioner re/start" ☁️ 2021.
-- 🔭 I am currently doing a work-study program to prepare a French RNCP 6 of "Conceptor Application Developer" with the company SCC.
+- 🔭 I am currently doing a work-study program to prepare a French RNCP 6 of "Conceptor Application Developer" with the company SCC 2021/2022.
 - ⚙️ I am qualified in front-end/back-end , I don't have any particular preferences.
 - 🌱 I am currently working on my skills in different frameworks (Symfony / React.JS / Node.JS / React.Native ).
 - 🌱 I am currently working on my skills in these languages (Python / Bash / Solidity). 
