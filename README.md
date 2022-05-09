@@ -1,7 +1,7 @@
 ### 👋 Hello, I'm Sofiane!
 
 - 📖 Developer since 2020
-- 💬 Passionate about  development , architecture & network.
+- 💬 Passionate about  development , software & network.
 - 🎓 I followed a training course "Web and Mobile Web Developer" 2020/2021.
 - 🎓 I have taken a training course "AWS Cloud Practitioner re/start" ☁️ 2021.
 - 🔭 I am currently doing a work-study program to prepare a French Licence of "Conceptor Application Developer" with the company SCC 2021/2022.
