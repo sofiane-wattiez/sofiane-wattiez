@@ -16,7 +16,6 @@
 - ⚙️ Public container for development environment coming soon on this link...
 - #️⃣ Next step: Blockchain development.
 
-<!-- ![My github stats](https://github-readme-stats.vercel.app/api?username=sofiane-wattiez&theme=gotham&show_icons=true)
-![Top Languages Card](https://github-readme-stats.vercel.app/api/top-langs/?username=sofiane-wattiez&langs_count=10&hide=html&theme=gotham) -->
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&langs_count=8)](https://github.com/anuraghazra/github-readme-stats)
+![My github stats](https://github-readme-stats.vercel.app/api?username=sofiane-wattiez&theme=gotham&show_icons=true)(https://github.com/sofiane-wattiez/github-readme-stats)
+![Top Languages Card](https://github-readme-stats.vercel.app/api/top-langs/?username=sofiane-wattiez&langs_count=10&hide=html&theme=gotham)(https://github.com/sofiane-wattiez/github-readme-stats)
 <hr>
