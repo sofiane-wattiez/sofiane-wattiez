@@ -17,5 +17,6 @@
 - #️⃣ Next step: Blockchain development.
 
 ![My github stats](https://github-readme-stats.vercel.app/api?username=sofiane-wattiez&theme=gotham&show_icons=true)
-<!-- ![Top Languages Card](https://github-readme-stats.vercel.app/api/top-langs/?username=sofiane-wattiez&theme=gotham) -->
+![Top Languages Card](https://github-readme-stats.vercel.app/api/top-langs/?username=sofiane-wattiez&hide=javascript,php,python,yml,css&theme=gotham)
+<!-- [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sofiane-wattiez&hide=javascript,html)](https://github.com/anuraghazra/github-readme-stats) -->
 <hr>
