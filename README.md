@@ -14,7 +14,7 @@
 - #️⃣ Actual step to train: Docker & Kubernetes 🐳.
 - 🐳 DockerHub : https://hub.docker.com/u/swattiez
 - ⚙️ Public container for development environment coming soon on this link...
-- #️⃣ Next step: Progress my DevOps skills.
+- #️⃣ Next Month : Progress my DevOps skills for prepare CKA (Certification Kubernetes Administrator) for my job.
 
 ![My github stats](https://github-readme-stats.vercel.app/api?username=sofiane-wattiez&count_private=True&theme=gotham&show_icons=true)
 ![Top Languages Card](https://github-readme-stats.vercel.app/api/top-langs/?username=sofiane-wattiez&langs_count=10&hide=html&theme=gotham)
