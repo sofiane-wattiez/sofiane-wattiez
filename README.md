@@ -13,7 +13,7 @@
 - ⚙️ I'm working more on GitLab forge account from my company at the moment hence the drop in activity visible here.
 - ⚙️ My old répository be saved here [https://gitlab.com/sofiane-wattiez](https://gitlab.com/users/sofiane-wattiez/projects)
 
-- #️⃣ Actual step to train: Docker & Kubernetes 🐳.
+- #️⃣ Actual step to train: Ansible / Docker / Kubernetes.
 - 🐳 DockerHub : https://hub.docker.com/u/swattiez
 - ⚙️ Public container for development environment coming soon on this link...
 - #️⃣ Next Month : Progress my DevOps skills for prepare CKA (Certification Kubernetes Administrator) for my job 🐳.
