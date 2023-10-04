@@ -9,15 +9,14 @@
 
 - ⚙️ I'm qualified in front-end/back-end , I doesn't have any particular preferences.
 - 🌱 I'm currently working on my skills in different frameworks (Symfony / React.JS / Node.JS / React.Native ).
-- 🌱 I'm currently working on my skills in these languages (Python / Bash / Solidity). 
+- 🌱 I'm currently working on my skills in these languages ( Python / Bash / Solidity / GO ). 
 - ⚙️ I'm working more on GitLab forge account from my company at the moment hence the drop in activity visible here.
 
-- #️⃣ Actual step to train: Ansible / Docker / Kubernetes.
+- #️⃣ Actual step to train: Ansible / Docker / Kubernetes / Terraform.
 - 🐳 DockerHub : https://hub.docker.com/u/swattiez
-- ⚙️ Public container for development environment coming soon on this link...
-- #️⃣ Next Month : Progress my DevOps skills for prepare CKA (Certification Kubernetes Administrator) 🐳.
 
-- NEW PROJECT COMING SOON STAY CONECTED IN 2023.
+- YOUTUBE CHANNEL COMING STAY CONECTED IN 2023.
+- https://www.youtube.com/channel/UCmC3TYaJqHXCR4KjOCJoivA
 
 ![My github stats](https://github-readme-stats.vercel.app/api?username=sofiane-wattiez&count_private=True&theme=gotham&show_icons=true)
 [![Top Languages Card](https://github-readme-stats.vercel.app/api/top-langs/?username=sofiane-wattiez&langs_count=10&hide=html,procfile&theme=gotham)](https://github.com/sofiane-wattiez/github-readme-stats)
