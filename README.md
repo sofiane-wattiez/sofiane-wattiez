@@ -15,9 +15,6 @@
 - #️⃣ Actual step to train: Ansible / Docker / Kubernetes / Terraform.
 - 🐳 DockerHub : https://hub.docker.com/u/swattiez
 
-- YOUTUBE CHANNEL COMING STAY CONECTED IN 2023 :
-- https://www.youtube.com/channel/UCmC3TYaJqHXCR4KjOCJoivA
-
 ![My github stats](https://github-readme-stats.vercel.app/api?username=sofiane-wattiez&count_private=True&theme=gotham&show_icons=true)
 [![Top Languages Card](https://github-readme-stats.vercel.app/api/top-langs/?username=sofiane-wattiez&langs_count=10&hide=html,procfile&theme=gotham)](https://github.com/sofiane-wattiez/github-readme-stats)
 
