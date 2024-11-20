@@ -6,8 +6,7 @@
   <img alt="github-snake" src="github-snake.svg" />
 </picture>
 
-![GitHub Snake](https://raw.githubusercontent.com/sofiane-wattiez/sofiane-wattiez/blob/output/github-snake.svg)
-
+![GitHub Snake](https://github.com/sofiane-wattiez/sofiane-wattiez/blob/output/github-snake.svg)
 
 - 📖 Developer since 2020
 - 💬 Passionate about development, software, and networks.
