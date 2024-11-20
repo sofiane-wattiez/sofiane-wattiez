@@ -17,9 +17,10 @@
 - 🎓 **AWS Cloud Practitioner Re/Start** training course ☁️: **2021**.
 - 🎓 **Work-Study Program** preparing for a French **Licence of Conceptor Developer of Applications** with job of **Software engineer - remote** with the company SCC FRANCE: **2021 - 2022**.
 
+---
+
 ### ⚙️ Work Experience
 - ⚙️ **Working - Software engineer - remote** Work-Study Program & open-ended contracts with the company SCC FRANCE: **2021 - 2023**.
-- ⚙️ **Working - Independent Developer** (I created my own company): **2023 - present**.
 
 ## 💼 Freelance Full Stack Developer / Auto-Entrepreneur
 
