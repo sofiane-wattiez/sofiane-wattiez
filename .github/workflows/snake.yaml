@@ -57,38 +57,41 @@ jobs:
         run: |
           mkdir -p dist  # Crée le répertoire dist s'il n'existe pas
 
-      # Étape 7 : Copier les fichiers de output vers main
-      - name: Copy files from output to main
+      # Étape 7 : Vérifier l'existence des fichiers avant de les copier vers main
+      - name: Check if files exist and copy them to main
         run: |
           # Passez à la branche main
           git checkout main
 
           # Vérifiez si les fichiers existent avant de les copier
-          if [ -f dist/github-snake.svg ]; then
-            cp dist/github-snake.svg dist/
+          if [ -f github-snake.svg ]; then
+            cp github-snake.svg dist/
           else
-            echo "File dist/github-snake.svg does not exist, skipping copy."
+            echo "File github-snake.svg does not exist, skipping copy."
           fi
 
-          if [ -f dist/github-snake-dark.svg ]; then
-            cp dist/github-snake-dark.svg dist/
+          if [ -f github-snake-dark.svg ]; then
+            cp github-snake-dark.svg dist/
           else
-            echo "File dist/github-snake-dark.svg does not exist, skipping copy."
+            echo "File github-snake-dark.svg does not exist, skipping copy."
           fi
 
-          if [ -f dist/ocean.gif ]; then
-            cp dist/ocean.gif dist/
+          if [ -f ocean.gif ]; then
+            cp ocean.gif dist/
           else
-            echo "File dist/ocean.gif does not exist, skipping copy."
+            echo "File ocean.gif does not exist, skipping copy."
           fi
 
-          # Configurer l'utilisateur pour le commit
+          # Ajouter et commettre les fichiers uniquement s'ils existent
           git config user.name "GitHub Actions"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
-          # Ajouter et pousser les fichiers modifiés
-          git add dist/github-snake.svg dist/github-snake-dark.svg dist/ocean.gif
-          git commit -m "Copy snake animations from output branch"
-          git push origin main  # Poussez vers main
+          
+          if [ -f github-snake.svg ] || [ -f github-snake-dark.svg ] || [ -f ocean.gif ]; then
+            git add github-snake.svg github-snake-dark.svg ocean.gif
+            git commit -m "Copy snake animations from output branch"
+            git push origin main  # Poussez vers main
+          else
+            echo "No files to commit, skipping commit."
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Authentification pour pousser vers main
