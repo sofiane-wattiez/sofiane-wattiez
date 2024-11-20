@@ -7,7 +7,7 @@
 </picture>
 
 
-##👤VISITORS**
+## 👤VISITORS
 <br>
 ![Visitor Count](https://profile-counter.glitch.me/sofiane-wattiez/count.svg)
 
