@@ -7,6 +7,9 @@
 </picture>
 
 ![GitHub Snake](https://raw.githubusercontent.com/sofiane-wattiez/Sofiane-Wattiez/a5001dd7874605dfa322c27011eaeeb1c04b45c2/github-snake-dark.svg)
+
+![GitHub Snake](https://raw.githubusercontent.com/sofiane-wattiez/Sofiane-Wattiez/blob/output/github-contribution-grid-snake.svg)
+
 ![snake gif](https://github.com/sofiane-wattiez/Sofiane-Wattiez/blob/output/github-contribution-grid-snake.gif)
 
 
@@ -59,6 +62,14 @@
 ---
 
 ### 📊 GitHub Stats
+
+<div style="display: flex; justify-content: space-between; align-items: flex-start; margin-top: 20px;">
+    <!-- Left Column: Metrics -->
+    <div style="flex: 1; max-width: 45%;">
+        <img align="left" width="50%" alt="if you see this, it means my metrics are not working" src="https://github.com/officialcodevoyage/officialcodevoyage/blob/main/github-metrics.svg">
+    </div>
+
+
 ![My GitHub stats](https://github-readme-stats.vercel.app/api?username=sofiane-wattiez&count_private=True&theme=gotham&show_icons=true)
 [![Top Languages Card](https://github-readme-stats.vercel.app/api/top-langs/?username=sofiane-wattiez&langs_count=10&hide=html,procfile&theme=gotham)](https://github.com/sofiane-wattiez/github-readme-stats)
 
