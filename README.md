@@ -23,17 +23,14 @@
 
 ### ⚙️ Skills & Expertise
 - **Full-stack development & System Skills**: 
-- 🌱 Currently enhancing my skills in various frameworks:
-  - Front-end: React.js - React Native - Javascript - Css - Sass
-  - Back-end: Node.js - Symfony - ApiPlatform - Php - Python
-  - CMS : Wordpress - Shopify
-  - System : PowerShell - Bash
-  - Deployment: MDT - SCCM
-  - Infra as Code: Ansible
-  - Backup : Veeam
-    
-- 🌱 Learning new languages:
-  - Python, Bash, Solidity, Go
+- 🌱 Currently enhancing my skills in various tech :
+  - Front-end: **React.js - React Native - Javascript - Css - Sass**
+  - Back-end: **Node.js - Symfony - ApiPlatform - Php - Python**
+  - CMS : **Wordpress - Shopify**
+  - System : **PowerShell - Bash**
+  - Deployment: **MDT - SCCM**
+  - Infra as Code: **Ansible - AWX**
+  - Backup : **Veeam**
     
 ---
 
