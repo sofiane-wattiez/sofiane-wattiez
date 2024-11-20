@@ -8,9 +8,7 @@
 
 ![GitHub Snake](https://raw.githubusercontent.com/sofiane-wattiez/Sofiane-Wattiez/a5001dd7874605dfa322c27011eaeeb1c04b45c2/github-snake-dark.svg)
 
-![GitHub Snake](https://raw.githubusercontent.com/sofiane-wattiez/Sofiane-Wattiez/blob/output/github-contribution-grid-snake.svg)
-
-![snake gif](https://github.com/sofiane-wattiez/Sofiane-Wattiez/blob/output/github-contribution-grid-snake.gif)
+![GitHub Snake](https://raw.githubusercontent.com/sofiane-wattiez/Sofiane-Wattiez/blob/output/github-snake.svg)
 
 
 - 📖 Developer since 2020
