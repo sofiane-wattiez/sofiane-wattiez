@@ -37,11 +37,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
 
-      # STEP TEST
-      - name: Fix permissions on files
-        run: |
-          chmod -R 777 dist
-          ls -l dist  # Optionnel : Pour afficher les fichiers et vérifier leurs permissions
+      
 
       # Step 3: Deploy the generated files to the 'output' branch
       - name: Deploy to Output Branch
@@ -51,6 +47,12 @@ jobs:
           publish_dir: ./dist
           publish_branch: output
           commit_message: "Update snake animation [skip ci]"
+          
+      # STEP TEST
+      - name: Fix permissions on files
+        run: |
+          chmod -R 777 dist
+          ls -l dist  # Optionnel : Pour afficher les fichiers et vérifier leurs permissions
 
       # Step 4: Checkout the Output Branch
       - name: Checkout Output Branch
