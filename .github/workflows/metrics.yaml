@@ -28,7 +28,7 @@ jobs:
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 1  # Fetch only the latest commit for faster performance
 
@@ -72,7 +72,7 @@ jobs:
           FORCE_JAVASCRIPT_ACTIONS_TO_NODE20: true
 
       - name: Commit and Push Metrics
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "📈 Update GitHub metrics [skip ci]"
           branch: metrics  # Specify the branch where metrics are stored
