@@ -32,7 +32,12 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}  # Utilisation du token pour l'authentification
 
-      # Étape 3 : Déployer dans la branche output
+      # Étape 3 : Afficher le contenu du répertoire dist/ pour vérifier la présence des fichiers
+      - name: List files in dist directory
+        run: |
+          ls -l dist  # Afficher les fichiers dans le répertoire dist pour vérification
+
+      # Étape 4 : Déployer dans la branche output
       - name: Deploy to Output Branch
         uses: peaceiris/actions-gh-pages@v4
         with:
@@ -41,40 +46,40 @@ jobs:
           publish_branch: output  # Branche où déployer
           commit_message: "Update snake animation [skip ci]"  # Message de commit
 
-      # Étape 4 : Checkout de la branche output
+      # Étape 5 : Checkout de la branche output
       - name: Checkout Output Branch
         uses: actions/checkout@v4
         with:
           ref: output  # Checkout de la branche output
 
-      # Étape 5 : Créer le répertoire dist/ si nécessaire
+      # Étape 6 : Créer le répertoire dist/ si nécessaire
       - name: Create dist directory if it does not exist
         run: |
           mkdir -p dist  # Crée le répertoire dist s'il n'existe pas
 
-      # Étape 6 : Copier les fichiers de output vers main
+      # Étape 7 : Copier les fichiers de output vers main
       - name: Copy files from output to main
         run: |
           # Passez à la branche main
           git checkout main
 
-          # Vérifiez si les fichiers existent déjà avant de les copier
-          if [ ! -f dist/github-snake.svg ]; then
+          # Vérifiez si les fichiers existent avant de les copier
+          if [ -f dist/github-snake.svg ]; then
             cp dist/github-snake.svg dist/
           else
-            echo "File dist/github-snake.svg already exists, skipping copy."
+            echo "File dist/github-snake.svg does not exist, skipping copy."
           fi
 
-          if [ ! -f dist/github-snake-dark.svg ]; then
+          if [ -f dist/github-snake-dark.svg ]; then
             cp dist/github-snake-dark.svg dist/
           else
-            echo "File dist/github-snake-dark.svg already exists, skipping copy."
+            echo "File dist/github-snake-dark.svg does not exist, skipping copy."
           fi
 
-          if [ ! -f dist/ocean.gif ]; then
+          if [ -f dist/ocean.gif ]; then
             cp dist/ocean.gif dist/
           else
-            echo "File dist/ocean.gif already exists, skipping copy."
+            echo "File dist/ocean.gif does not exist, skipping copy."
           fi
 
           # Configurer l'utilisateur pour le commit
