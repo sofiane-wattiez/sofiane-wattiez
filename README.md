@@ -10,8 +10,13 @@
 ## 👤VISITORS
 ![Visitor Count](https://profile-counter.glitch.me/sofiane-wattiez/count.svg)
 
+---
 
+## Show snake eating my github contributions 😋
 
+![GitHub Snake](https://github.com/sofiane-wattiez/sofiane-wattiez/blob/output/github-snake.svg)
+
+---
 
 - 📖 Developer since 2020
 - 💬 Passionate about development, software, and networks.
@@ -58,11 +63,6 @@
 
 ### 🐳 DockerHub
 [Check out my DockerHub profile](https://hub.docker.com/u/swattiez)
-
----
-## Show snake eating my github contributions 😋
-
-![GitHub Snake](https://github.com/sofiane-wattiez/sofiane-wattiez/blob/output/github-snake.svg)
 
 ---
 
