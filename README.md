@@ -6,9 +6,8 @@
   <img alt="github-snake" src="github-snake.svg" />
 </picture>
 
-![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=sofiane-wattiez_visitor_badge_big&left_color=green&right_color=black)
 
-**👤VISITORS**
+##👤VISITORS**
 <br>
 ![Visitor Count](https://profile-counter.glitch.me/sofiane-wattiez/count.svg)
 
