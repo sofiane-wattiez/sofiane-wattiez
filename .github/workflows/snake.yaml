@@ -1,4 +1,3 @@
-
 name: Generate GitHub Contributions Snake Animation
 
 on:
@@ -31,12 +30,36 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}  # Utilisation du token pour l'authentification
 
-      # Étape 3 : Déployer directement dans la branche main
-      - name: Deploy to Main Branch
+      # Étape 3 : Déployer dans la branche output
+      - name: Deploy to Output Branch
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.METRICS_TOKEN }}  # Authentification pour déployer
           publish_dir: ./dist  # Répertoire contenant les fichiers générés
-          publish_branch: main  # Branche où déployer
+          publish_branch: output  # Branche où déployer
           commit_message: "Update snake animation [skip ci]"  # Message de commit
 
+      # Étape 4 : Copier les fichiers de la branche output vers la branche main
+      - name: Checkout Output Branch
+        uses: actions/checkout@v4
+        with:
+          ref: output  # Checkout de la branche output
+
+      - name: Copy files from output to main
+        run: |
+          # Assurez-vous d'être dans la branche main pour copier les fichiers
+          git checkout main  # Passe à la branche main
+          cp dist/github-snake.svg dist/  # Copie des fichiers depuis dist
+          cp dist/github-snake-dark.svg dist/
+          cp dist/ocean.gif dist/
+
+          # Configurez l'utilisateur pour Git
+          git config Sofiane.Wattiez "GitHub Actions"
+          git config sofiane.wattiez.developpeur@gmail.com "github-actions[bot]@users.noreply.github.com"
+
+          # Ajoutez, commitez et poussez les fichiers vers main
+          git add dist/github-snake.svg dist/github-snake-dark.svg dist/ocean.gif
+          git commit -m "Copy snake animations from output branch"
+          git push origin main  # Poussez vers main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Authentification pour pousser vers main
