@@ -32,12 +32,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}  # Utilisation du token pour l'authentification
 
-      # Étape 3 : Afficher le contenu du répertoire dist/ pour vérifier la présence des fichiers
-      - name: List files in dist directory
-        run: |
-          ls -l dist  # Afficher les fichiers dans le répertoire dist pour vérification
-
-      # Étape 4 : Déployer dans la branche output
+      # Étape 3 : Déployer dans la branche output
       - name: Deploy to Output Branch
         uses: peaceiris/actions-gh-pages@v4
         with:
@@ -45,53 +40,3 @@ jobs:
           publish_dir: ./dist  # Répertoire contenant les fichiers générés
           publish_branch: output  # Branche où déployer
           commit_message: "Update snake animation [skip ci]"  # Message de commit
-
-      # Étape 5 : Checkout de la branche output
-      - name: Checkout Output Branch
-        uses: actions/checkout@v4
-        with:
-          ref: output  # Checkout de la branche output
-
-      # Étape 6 : Créer le répertoire dist/ si nécessaire
-      - name: Create dist directory if it does not exist
-        run: |
-          mkdir -p dist  # Crée le répertoire dist s'il n'existe pas
-
-      # Étape 7 : Vérifier l'existence des fichiers avant de les copier vers main
-      - name: Check if files exist and copy them to main
-        run: |
-          # Passez à la branche main
-          git checkout main
-
-          # Vérifiez si les fichiers existent avant de les copier
-          if [ -f github-snake.svg ]; then
-            cp github-snake.svg dist/
-          else
-            echo "File github-snake.svg does not exist, skipping copy."
-          fi
-
-          if [ -f github-snake-dark.svg ]; then
-            cp github-snake-dark.svg dist/
-          else
-            echo "File github-snake-dark.svg does not exist, skipping copy."
-          fi
-
-          if [ -f ocean.gif ]; then
-            cp ocean.gif dist/
-          else
-            echo "File ocean.gif does not exist, skipping copy."
-          fi
-
-          # Ajouter et commettre les fichiers uniquement s'ils existent
-          git config Sofiane.Wattiez "GitHub Actions"
-          git config sofiane.wattiez.developpeur@gmail.com "github-actions[bot]@users.noreply.github.com"
-          
-          if [ -f github-snake.svg ] || [ -f github-snake-dark.svg ] || [ -f ocean.gif ]; then
-            git add github-snake.svg github-snake-dark.svg ocean.gif
-            git commit -m "Copy snake animations from output branch"
-            git push origin main  # Poussez vers main
-          else
-            echo "No files to commit, skipping commit."
-          fi
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Authentification pour pousser vers main
