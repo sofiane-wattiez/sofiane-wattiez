@@ -6,7 +6,7 @@
   <img alt="github-snake" src="github-snake.svg" />
 </picture>
 
-![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=sofiane-wattiez_visitor_badge_simple&left_color=royalblue&right_color=black)
+![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=sofiane-wattiez_visitor_badge_simple&left_color=green&right_color=black)
 
 **👤VISITORS**
 <br>
