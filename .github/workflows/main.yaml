@@ -17,9 +17,9 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
-
+            
     - name: Generate snake game
-      uses: Platane/snk@v3
+      uses: Platane/snk@v3.2.0
       with:
         github_user_name: ${{ github.repository_owner }}
         outputs: |
