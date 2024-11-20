@@ -1,5 +1,7 @@
 ### 👋 Hello, I'm Sofiane!
 
+![GitHub Snake](https://raw.githubusercontent.com/sofiane-wattiez/sofiane-wattiez/a5001dd7874605dfa322c27011eaeeb1c04b45c2/github-snake-dark.svg)
+
 - 📖 Developer since 2020
 - 💬 Passionate about development, software, and networks.
 
