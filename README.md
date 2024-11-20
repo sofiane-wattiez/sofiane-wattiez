@@ -9,6 +9,8 @@
 - 🎓 **Web and Mobile Web Developer** training course: *March 2020 - March 2021*.
 - 🎓 **AWS Cloud Practitioner Re/Start** training course ☁️: *June 2021 - September 2021*.
 - 🎓 **Work-Study Program** preparing for a French **Licence of Conceptor Developer of Applications** with the company SCC FRANCE: *October 2021 - September 2022*.
+
+### ⚙️ Work Experience
 - ⚙️ **Working - Software engineer - remote** CDI with the company SCC FRANCE: *September 2022 - June 2023*.
 - ⚙️ **Working - Independent Developer** (I created my own company): *July 2023 - present*.
 
@@ -20,14 +22,19 @@
 ---
 
 ### ⚙️ Skills & Expertise
-- **Full-stack development**: I don't have any particular preferences between front-end and back-end.
+- **Full-stack development & System Skills**: 
 - 🌱 Currently enhancing my skills in various frameworks:
-  - Front-end: Symfony, React.js, React Native
-  - Back-end: Node.js
+  - Front-end: React.js - React Native - Javascript - Css - Sass
+  - Back-end: Node.js - Symfony - ApiPlatform - Php - Python
+  - CMS : Wordpress - Shopify
+  - System : PowerShell - Bash
+  - Deployment: MDT - SCCM
+  - Infra as Code: Ansible
+  - Backup : Veeam
+    
 - 🌱 Learning new languages:
   - Python, Bash, Solidity, Go
-- ⚙️ Working more with my **GitLab** account for my company, which has resulted in less activity visible here.
-
+    
 ---
 
 ### 🚀 Current Focus
