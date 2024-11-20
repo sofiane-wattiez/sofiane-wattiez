@@ -23,7 +23,7 @@ jobs:
     permissions:
       contents: read-write
       issues: read
-      pull-requests: read-write
+      pull-requests: read
       # Add other permissions if required by specific plugins
 
     steps:
