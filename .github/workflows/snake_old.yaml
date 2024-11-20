@@ -28,7 +28,10 @@ jobs:
       - name: Generate GitHub Contributions Snake Animations
         uses: Platane/snk@v3.2.0
         with:
-          github_user_name: ${{ github.repository_owner }}
+          # GitHub username to generate the animation for
+          github_user_name: ${{ github.REPOSITORY_OWNER }}
+
+          # Define the output files and their configurations
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
@@ -43,26 +46,24 @@ jobs:
           github_token: ${{ secrets.METRICS_TOKEN }}
           publish_dir: ./dist
           publish_branch: output
+          # Optionally, you can set a custom commit message
           commit_message: "Update snake animation [skip ci]"
 
-      # Step 4: Checkout the Output Branch
+       # Step 4: Checkout the Output Branch
       - name: Checkout Output Branch
         uses: actions/checkout@v4
         with:
           ref: output  # Checkout the output branch
 
       # Step 5: Copy the snake.svg file from the output branch to the main branch
-      - name: Verify if snake.svg exists
-        run: |
-          if [ ! -f dist/github-snake.svg ]; then
-            echo "Error: snake.svg not found"
-            exit 1
-          fi
-
       - name: Copy snake.svg from output to main
         run: |
+          # Ensure that the target directory exists
           mkdir -p dist
+          # Copy the generated snake.svg from the output branch
           cp dist/github-snake.svg dist/  # Copy to the same directory in the main branch
+          
+          # Commit and push the changes to the main branch
           git config user.name "GitHub Actions"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add dist/github-snake.svg
@@ -70,3 +71,12 @@ jobs:
           git push origin main  # Push to the main branch
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # Step 6: Deploy to Main Branch
+      - name: Deploy to Main Branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.METRICS_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: main
+          commit_message: "Update snake animation [skip ci]"
