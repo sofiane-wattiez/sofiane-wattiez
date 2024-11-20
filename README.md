@@ -9,6 +9,7 @@
 ![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=sofiane-wattiez_visitor_badge_simple&left_color=royalblue&right_color=black)
 
 **👤VISITORS**
+<br>
 ![Visitor Count](https://profile-counter.glitch.me/sofiane-wattiez/count.svg)
 
 
