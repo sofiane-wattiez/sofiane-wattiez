@@ -11,7 +11,7 @@
 ![Visitor Count](https://profile-counter.glitch.me/sofiane-wattiez/count.svg)
 
 
-## Show snake eating my github contributions workflows
+## Show snake eating my github contributions 😋
 
 ![GitHub Snake](https://github.com/sofiane-wattiez/sofiane-wattiez/blob/output/github-snake.svg)
 
