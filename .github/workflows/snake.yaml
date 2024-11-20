@@ -1,12 +1,13 @@
+
 name: Generate GitHub Contributions Snake Animation
 
 on:
   schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
+    - cron: "0 0 * * *"  # Exécuter tous les jours à minuit UTC
+  workflow_dispatch:  # Permet un déclenchement manuel
   push:
     branches:
-      - main
+      - main  # Déclenchement lors de poussées vers la branche main
 
 jobs:
   generate:
@@ -14,56 +15,28 @@ jobs:
     timeout-minutes: 10
 
     steps:
+      # Étape 1 : Checkout du dépôt
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Clean dist directory
-        run: |
-          rm -rf dist/*  # Nettoie le répertoire dist avant de commencer
-
+      # Étape 2 : Générer l'animation Snake
       - name: Generate GitHub Contributions Snake Animations
         uses: Platane/snk@v3.2.0
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: ${{ github.repository_owner }}  # Nom d'utilisateur GitHub pour générer l'animation
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
             dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
         env:
-          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}  # Utilisation du token pour l'authentification
 
-      - name: Deploy to Output Branch
+      # Étape 3 : Déployer directement dans la branche main
+      - name: Deploy to Main Branch
         uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.METRICS_TOKEN }}
-          publish_dir: ./dist
-          publish_branch: output
-          commit_message: "Update snake animation [skip ci]"
+          github_token: ${{ secrets.METRICS_TOKEN }}  # Authentification pour déployer
+          publish_dir: ./dist  # Répertoire contenant les fichiers générés
+          publish_branch: main  # Branche où déployer
+          commit_message: "Update snake animation [skip ci]"  # Message de commit
 
-      - name: Checkout Output Branch
-        uses: actions/checkout@v4
-        with:
-          ref: output  # Checkout the output branch
-
-      - name: Verify if github-snake.svg exists
-        run: |
-          if [ ! -f dist/github-snake.svg ]; then
-            echo "Error: github-snake.svg not found"
-            exit 1
-          fi
-
-      - name: Force remove problematic files
-        run: |
-          git rm -f dist/github-snake-dark.svg dist/github-snake.svg dist/ocean.gif || true  # Force delete problematic files
-
-      - name: Copy github-snake.svg from output to main
-        run: |
-          mkdir -p dist
-          cp dist/github-snake.svg dist/  # Copy to the same directory in the main branch
-          git config user.name "GitHub Actions"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add dist/github-snake.svg
-          git commit -m "Copy github-snake.svg from output branch"
-          git push origin main  # Push to the main branch
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
