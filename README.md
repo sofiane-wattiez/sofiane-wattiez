@@ -22,7 +22,7 @@
 ### ⚙️ Work Experience
 - ⚙️ **Working - Software engineer - remote** Work-Study Program & open-ended contracts with the company SCC FRANCE: **2021 - 2023**.
 
-## 💼 Freelance Full Stack Developer / Auto-Entrepreneur
+## 💼 Freelance Full Stack Developer
 
 - 🗓️ **Duration**: **2023 - Present**
 - 📍 **Location**: **Marseille**
