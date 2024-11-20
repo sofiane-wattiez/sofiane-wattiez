@@ -8,7 +8,8 @@
 
 ![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=sofiane-wattiez_visitor_badge_simple&left_color=royalblue&right_color=black)
 
-**👤VISITORS : ![Visitor Count](https://profile-counter.glitch.me/sofiane-wattiez/count.svg)**
+**👤VISITORS**
+![Visitor Count](https://profile-counter.glitch.me/sofiane-wattiez/count.svg)
 
 
 ## Show snake eating my github contributions workflows
