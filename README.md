@@ -6,6 +6,10 @@
   <img alt="github-snake" src="github-snake.svg" />
 </picture>
 
+<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=sofiane-wattiez_visitor_badge_simple&left_color=royalblue&right_color=black"  />
+
+![Visitor Count](https://profile-counter.glitch.me/sofiane-wattiez/count.svg)
+
 ## Show snake eating my github contributions workflows
 
 ![GitHub Snake](https://github.com/sofiane-wattiez/sofiane-wattiez/blob/output/github-snake.svg)
