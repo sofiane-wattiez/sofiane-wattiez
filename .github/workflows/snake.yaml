@@ -14,19 +14,13 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      # Étape 1 : Vérifier et ajuster les permissions des fichiers
-      - name: Fix file permissions
-        run: |
-          sudo chmod -R 777 /home/runner/work/${{ github.repository }}
-          ls -l /home/runner/work/${{ github.repository }}/dist
-
-      # Étape 2 : Checkout du dépôt
+      # Étape 1 : Checkout du dépôt
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
           clean: true  # Nettoie le répertoire avant de faire le checkout
 
-      # Étape 3 : Générer l'animation Snake
+      # Étape 2 : Générer l'animation Snake
       - name: Generate GitHub Contributions Snake Animations
         uses: Platane/snk@v3.2.0
         with:
@@ -38,7 +32,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}  # Utilisation du token pour l'authentification
 
-      # Étape 4 : Déployer dans la branche output
+      # Étape 3 : Déployer dans la branche output
       - name: Deploy to Output Branch
         uses: peaceiris/actions-gh-pages@v4
         with:
@@ -47,11 +41,16 @@ jobs:
           publish_branch: output  # Branche où déployer
           commit_message: "Update snake animation [skip ci]"  # Message de commit
 
-      # Étape 5 : Checkout de la branche output
+      # Étape 4 : Checkout de la branche output
       - name: Checkout Output Branch
         uses: actions/checkout@v4
         with:
           ref: output  # Checkout de la branche output
+
+      # Étape 5 : Créer le répertoire dist/ si nécessaire
+      - name: Create dist directory if it does not exist
+        run: |
+          mkdir -p dist  # Crée le répertoire dist s'il n'existe pas
 
       # Étape 6 : Copier les fichiers de output vers main
       - name: Copy files from output to main
