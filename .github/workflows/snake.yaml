@@ -39,11 +39,12 @@ jobs:
           publish_branch: output  # Branche où déployer
           commit_message: "Update snake animation [skip ci]"  # Message de commit
 
-      # Étape 4 : Copier les fichiers de la branche output vers la branche main
-      - name: Checkout Output Branch
-        uses: actions/checkout@v4
-        with:
-          ref: output  # Checkout de la branche output
+      # # Étape 4 : Copier les fichiers de la branche output vers la branche main
+      # - name: Checkout Output Branch
+      #   uses: actions/checkout@v4
+      #   with:
+      #     clean: true
+      #     ref: output  # Checkout de la branche output
 
       - name: Copy files from output to main
         run: |
