@@ -21,7 +21,7 @@ jobs:
 
     # Define minimal required permissions for security
     permissions:
-      contents: read-write
+      contents: write
       issues: read
       pull-requests: read
       # Add other permissions if required by specific plugins
