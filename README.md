@@ -1,11 +1,7 @@
 ### 👋 Hello, I'm Sofiane!
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="github-snake.svg" />
-  <img alt="github-snake" src="github-snake.svg" />
-</picture>
-
+- 📖 Developer since 2020
+- 💬 Passionate about development, software, and networks.
 
 ## 👤VISITORS
 ![Visitor Count](https://profile-counter.glitch.me/sofiane-wattiez/count.svg)
@@ -13,11 +9,6 @@
 ## Show snake eating my github contributions 😋
 
 ![GitHub Snake](https://github.com/sofiane-wattiez/sofiane-wattiez/blob/output/github-snake.svg)
-
----
-
-- 📖 Developer since 2020
-- 💬 Passionate about development, software, and networks.
 
 ---
 
