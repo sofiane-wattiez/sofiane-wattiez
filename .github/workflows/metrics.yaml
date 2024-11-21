@@ -62,11 +62,11 @@ jobs:
           plugin_languages_recent_load: 300
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
-          plugin_leetcode: true
-          plugin_leetcode_limit_recent: 2
-          plugin_leetcode_limit_skills: 10
-          plugin_leetcode_sections: solved
-          plugin_leetcode_user: sofiane-wattiez
+          # plugin_leetcode: true
+          # plugin_leetcode_limit_recent: 2
+          # plugin_leetcode_limit_skills: 10
+          # plugin_leetcode_sections: solved
+          # plugin_leetcode_user: sofiane-wattiez
         env:
           GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
           FORCE_JAVASCRIPT_ACTIONS_TO_NODE20: true
