@@ -36,14 +36,14 @@
   - Front-end: **React.js - React Native - Javascript - Css - Scss & Sass**
   - Back-end: **Node.js - Symfony - ApiPlatform - Php - Python**
   - CMS : **Wordpress - Shopify**
-  - System : **PowerShell - Bash**
+  - System Administration : **PowerShell - Bash**
   - Deployment & Automation : **MDT - SCCM**
   - Infra as Code (IaC) : **Ansible - AWX**
-  - Backup : **Veeam**
+  - Backup Solution : **Veeam**
   - Cloud : **AWS - Google Cloud**
-  - Container : **Docker - Kubernetes**
-  - Security : **Kali-Linux Tools**
-  - Linux : **CentOs, RHEL, Ubuntu, AlmaLinux, KaliLinux**
+  - Containers & Orchestration : **Docker - Kubernetes**
+  - Security Tools : **Kali-Linux Tools**
+  - Linux Distribution : **CentOs, RHEL, Ubuntu, AlmaLinux, KaliLinux**
     
 ---
 
