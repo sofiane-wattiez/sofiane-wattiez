@@ -23,7 +23,7 @@
 - ⚙️ **Working - Informatic Operator** Network & hardware management with the company SERAMM in Marseille : **2025 - Actualy**.
 - ⚙️ **Working - Software engineer - remote** Work-Study Program & open-ended contracts with the company SCC FRANCE: **2021 - 2023**.
 
-## 💼 Freelance Full Stack Developer
+## 💼 Freelance Full Stack Developer - Admin System
 
 - 🗓️ **Duration**: **2023 - Present**
 - 📍 **Location**: **Marseille**
