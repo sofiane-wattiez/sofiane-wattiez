@@ -43,6 +43,7 @@
   - Cloud : **AWS - Google Cloud**
   - Container : **Docker - Kubernetes**
   - Security : **Kali-Linux Tools**
+  - Linux : **CentOs, RHEL, Ubuntu, AlmaLinux, KaliLinux**
     
 ---
 
