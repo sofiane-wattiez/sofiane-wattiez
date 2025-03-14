@@ -33,12 +33,12 @@
 ### ⚙️ Skills & Expertise
 - **Full-stack development & System Skills**: 
 
-  - Front-end: **React.js - React Native - Javascript - Css - Sass**
+  - Front-end: **React.js - React Native - Javascript - Css - Scss & Sass**
   - Back-end: **Node.js - Symfony - ApiPlatform - Php - Python**
   - CMS : **Wordpress - Shopify**
   - System : **PowerShell - Bash**
-  - Deployment: **MDT - SCCM**
-  - Infra as Code: **Ansible - AWX**
+  - Deployment & Automation : **MDT - SCCM**
+  - Infra as Code (IaC) : **Ansible - AWX**
   - Backup : **Veeam**
   - Cloud : **AWS - Google Cloud**
   - Container : **Docker - Kubernetes**
