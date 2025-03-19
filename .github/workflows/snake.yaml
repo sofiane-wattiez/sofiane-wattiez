@@ -2,7 +2,7 @@ name: Generate GitHub Contributions Snake Animation
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # Exécuter tous les jours à minuit UTC
+    - cron: "0 */24 * * *"  # Exécuter tous les jours à minuit UTC
   workflow_dispatch:  # Permet un déclenchement manuel
   push:
     branches:
@@ -24,7 +24,7 @@ jobs:
       - name: Generate GitHub Contributions Snake Animations
         uses: Platane/snk@v3.2.0
         with:
-          github_user_name: ${{ github.repository_owner }}  # Nom d'utilisateur GitHub pour générer l'animation
+          github_user_name: ${{ github.REPOSITORY_OWNER }}  # Nom d'utilisateur GitHub pour générer l'animation
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
