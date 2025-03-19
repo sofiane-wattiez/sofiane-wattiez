@@ -66,7 +66,7 @@
         <img align="left" width="50%" alt="if you see this, it means my metrics are not working" src="https://github.com/sofiane-wattiez/Sofiane-Wattiez/blob/main/github-metrics.svg">
     </div>
 
-github-readme-stats-git-master-sofianewattiezs-projects.vercel.app
+
 ![My GitHub stats](https://github-readme-stats-git-master-sofianewattiezs-projects.vercel.app/api?username=sofiane-wattiez&count_private=True&theme=gotham&show_icons=true)
 [![Top Languages Card](https://github-readme-stats-git-master-sofianewattiezs-projects.vercel.app/api/top-langs/?username=sofiane-wattiez&langs_count=10&hide=html,procfile&theme=gotham)](https://github.com/sofiane-wattiez/github-readme-stats)
 
