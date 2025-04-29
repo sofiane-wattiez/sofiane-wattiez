@@ -66,11 +66,7 @@
         <img align="left" width="50%" alt="if you see this, it means my metrics are not working" src="https://github.com/sofiane-wattiez/Sofiane-Wattiez/blob/main/github-metrics.svg">
     </div>
 
-
-<!-- ![My GitHub stats](https://github-readme-stats-git-master-sofianewattiezs-projects.vercel.app/api?username=sofiane-wattiez&count_private=True&theme=gotham&show_icons=true) -->
-![My GitHub stats](https://github-readme-stats-git-master-sofianewattiezs-projects.vercel.app/api?username=sofiane-wattiez&repo=github-readme-stats&theme=buefy&show_icons=true)
-
-| <a href="https://github.com/sofiane-wattiez/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api?username=sofiane-wattiez&show_icons=true&include_all_commits=true&theme=buefy&hide_border=true" alt="Sofiane github stats" /></a> | <a href="https://github.com/sofiane-wattiez/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sofiane-wattiez&layout=compact&theme=buefy&hide_border=true" /></a> |
+| <a href="https://github.com/sofiane-wattiez/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api?username=sofiane-wattiez&show_icons=true&include_all_commits=true&theme=buefy&hide_border=true" alt="Sofiane github stats" /></a> | <a href="https://github.com/sofiane-wattiez/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sofiane-wattiez&count_private=True&langs_count=10&layout=compact&theme=buefy&hide_border=true" /></a> |
 | ------------- | ------------- |
 
 
