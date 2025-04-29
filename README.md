@@ -66,8 +66,8 @@
 
 <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-top: 20px;">
     <!-- Left Column: Metrics -->
-    <div style="flex: 1; max-width: 60%;">
-        <img align="left" width="75%" alt="if you see this, it means my metrics are not working" src="https://github.com/sofiane-wattiez/Sofiane-Wattiez/blob/main/github-metrics.svg">
+    <div style="flex: 1; max-width: 50%;">
+        <img align="left" width="60%" alt="if you see this, it means my metrics are not working" src="https://github.com/sofiane-wattiez/Sofiane-Wattiez/blob/main/github-metrics.svg">
     </div>
   
 
