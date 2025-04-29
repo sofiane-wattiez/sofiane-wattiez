@@ -66,8 +66,8 @@
         <img align="left" width="50%" alt="if you see this, it means my metrics are not working" src="https://github.com/sofiane-wattiez/Sofiane-Wattiez/blob/main/github-metrics.svg">
     </div>
   
-| <a href="https://github.com/sofiane-wattiez/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api?username=sofiane-wattiez&show_icons=true&include_all_commits=true&count_private=true&theme=buefy&hide_border=true" alt="Sofiane github stats" /></a> | <a href="https://github.com/sofiane-wattiez/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sofiane-wattiez&count_private=true&langs_count=10&layout=compact&theme=buefy&hide_border=true" /></a> |
+| <a href="https://github.com/sofiane-wattiez/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api?username=sofiane-wattiez&show_icons=true&include_all_commits=true&theme=buefy&hide_border=true" alt="Sofiane github stats" /></a> | <a href="https://github.com/sofiane-wattiez/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sofiane-wattiez&include_all_commits=true&langs_count=10&layout=compact&theme=buefy&hide_border=true" /></a> |
 | ------------- | ------------- |
 
-<!-- [![Top Languages Card](https://github-readme-stats.vercel.app/api/top-langs/?username=sofiane-wattiez&count_private=True&langs_count=10&hide=html,procfile&theme=gotham)](https://github.com/sofiane-wattiez/github-readme-stats) -->
+<!-- [![Top Languages Card](https://github-readme-stats.vercel.app/api/top-langs/?username=sofiane-wattiez&include_all_commits=true&count_private=True&langs_count=10&hide=html,procfile&theme=gotham)](https://github.com/sofiane-wattiez/github-readme-stats) -->
 ---
