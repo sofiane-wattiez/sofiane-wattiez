@@ -1,7 +1,9 @@
 ### 👋 Hello, I'm Sofiane!
 
-- 📖 Developer since 2020
-- 💬 Passionate about development, software, and networks.
+Based in Marseille, France. Coding since 2020, with experience in
+software development, Linux administration, and infrastructure automation.
+
+Passionate about open source, networks, and building reliable systems
 
 ## 👤VISITORS
 ![Visitor Count](https://profile-counter.glitch.me/sofiane-wattiez/count.svg)
@@ -19,37 +21,45 @@
 
 ---
 
-### ⚙️ Work Experience
-- ⚙️ **Working - Informatic Operator** Network & hardware management with the company SERAMM in Marseille : **2025 - Actualy**.
-- ⚙️ **Working - Software engineer - remote** Work-Study Program & open-ended contracts with the company SCC FRANCE: **2021 - 2023**.
+### 💼 Professional Experience
 
-## 💼 Freelance Full Stack Developer - Admin System
+- **Linux Systems Administrator & DevOps — ATREAL**
+  2026 – Present
 
-- 🗓️ **Duration**: **2023 - Present**
-- 📍 **Location**: **Marseille**
+- **Linux Engineer — EXAIL**
+  2026  
+  Maintained and improved Linux deployment processes in the naval defense sector.
+
+- **IT Operations Technician — SERAMM, Marseille**
+  2025  
+  Network and hardware management.
+
+- **Linux Software Engineer — SCC France · Remote**
+  2021 – 2023  
+  Joined through a work-study program, followed by a permanent position.
+
+### 🛠️ Freelance
+
+**Full-Stack Developer & Systems Administrator**  
+2023 – Present · Marseille, France
 
 ---
 
 ### ⚙️ Skills & Expertise
 - **Full-stack development & System Skills**: 
 
-  - Front-end: **React.js - React Native - Javascript - Css - Scss & Sass**
-  - Back-end: **Node.js - Symfony - ApiPlatform - Php - Python**
-  - CMS : **Wordpress - Shopify**
-  - System Administration : **PowerShell - Bash**
-  - Deployment & Automation : **MDT - SCCM**
-  - Infra as Code (IaC) : **Ansible - AWX**
-  - Backup Solution : **Veeam**
-  - Cloud : **AWS - Google Cloud**
-  - Containers & Orchestration : **Docker - Kubernetes**
-  - Security Tools : **Kali-Linux Tools**
-  - Linux Distribution : **CentOs, RHEL, Ubuntu, AlmaLinux, KaliLinux**
-    
----
-
-### 🚀 Current Focus
-- 🌱 Currently enhancing my skills in various tech :
-- 🛠️ **Ansible**, **Docker**, **Kubernetes**, and **Terraform** are my focus areas right now.
+- **Frontend:** React, React Native, JavaScript, CSS, Sass/SCSS
+- **Backend:** Node.js, Symfony, API Platform, PHP, Python
+- **CMS:** WordPress, Shopify
+- **Systems & Scripting:** Linux, Bash, PowerShell
+- **Configuration Management & Automation:** Ansible, AWX
+- **Deployment:** MDT, SCCM
+- **Containers & Orchestration:** Docker, Kubernetes, Podman
+- **Cloud:** AWS, Google Cloud
+- **Backup:** Veeam, S3 
+- **Security:** Kali Linux tools
+- **Linux Distributions:** Debian, RHEL, AlmaLinux, CentOS, Ubuntu, Kali Linux
+- **Networks:** Ovpn, firewall
 
 ---
 
