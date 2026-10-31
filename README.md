@@ -3,7 +3,7 @@
 Based in Marseille, France. Coding since 2020, with experience in
 software development, Linux administration, and infrastructure automation.
 
-Passionate about open source, networks, and building reliable systems
+Passionate about dev, open source, networks, and building reliable systems
 
 ## 👤VISITORS
 ![Visitor Count](https://profile-counter.glitch.me/sofiane-wattiez/count.svg)
