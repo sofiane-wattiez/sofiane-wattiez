@@ -1,7 +1,7 @@
 ### 👋 Hello, I'm Sofiane!
 
-Based in Marseille, France. Coding since 2020, with experience in
-software development, Linux administration, and infrastructure automation.
+Based in Marseille, France.
+Coding since 2020, with experience in software development, Linux administration, and infrastructure automation.
 
 Passionate about dev, open source, networks, and building reliable systems
 
