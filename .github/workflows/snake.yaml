@@ -1,53 +1,43 @@
-name: generate animation
+name: Generate Snake Game
 
 on:
-  # run automatically every 24 hours
   schedule:
-    - cron: "0 */24 * * *" 
-  
-  # allows to manually run the job at any time
+    - cron: "23 2 * * *"
   workflow_dispatch:
-  
-  # run on every push on the master branch
   push:
-    branches:
-    - master
-    
-  
+    branches: [main]
+    paths:
+      - .github/workflows/snake.yaml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: snake-animation
+  cancel-in-progress: false
 
 jobs:
   generate:
-    permissions: 
-      contents: write
-      pages: write
-      id-token: write
     runs-on: ubuntu-latest
-    timeout-minutes: 5
-    
+    timeout-minutes: 10
     steps:
-     # Étape 1 : Checkout du dépôt
-      - name: Checkout Repository
-        uses: actions/checkout@v4
-        with:
-          clean: true  # Nettoie le répertoire avant de faire le checkout
+      - name: Checkout repository
+        uses: actions/checkout@v6
 
-      # Étape 2 : Générer l'animation Snake
-      - name: Generate GitHub Contributions Snake Animations
+      - name: Generate contribution animations
         uses: Platane/snk@v3.2.0
         with:
-          github_user_name: ${{ github.REPOSITORY_OWNER }}  # Nom d'utilisateur GitHub pour générer l'animation
+          github_user_name: ${{ github.repository_owner }}
+          github_token: ${{ github.token }}
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
             dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
-        env:
-          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}  # Utilisation du token pour l'authentification
 
-      # Étape 3 : Déployer dans la branche output
-      - name: Deploy to Output Branch
+      - name: Publish animations to the output branch
         uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.METRICS_TOKEN }}  # Authentification pour déployer
-          publish_dir: ./dist  # Répertoire contenant les fichiers générés
-          publish_branch: output  # Branche où déployer
-          commit_message: "Update snake animation [skip ci]"  # Message de commit
+          github_token: ${{ github.token }}
+          publish_dir: ./dist
+          publish_branch: output
+          commit_message: "Update snake animation [skip ci]"

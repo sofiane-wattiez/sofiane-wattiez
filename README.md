@@ -6,11 +6,14 @@ Coding since 2020, with experience in software development, Linux administration
 Passionate about dev, open source, networks, and building reliable systems
 
 ## 👤VISITORS
-![Visitor Count](https://profile-counter.glitch.me/sofiane-wattiez/count.svg)
+![Profile views](https://komarev.com/ghpvc/?username=sofiane-wattiez&label=Profile+views&color=7957d5&style=flat)
 
 ## Show snake eating my github contributions 😋
 
-![GitHub Snake](https://github.com/sofiane-wattiez/sofiane-wattiez/blob/output/github-snake.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sofiane-wattiez/sofiane-wattiez/output/github-snake-dark.svg">
+  <img alt="Snake animation of my GitHub contributions" src="https://raw.githubusercontent.com/sofiane-wattiez/sofiane-wattiez/output/github-snake.svg">
+</picture>
 
 ---
 
@@ -70,14 +73,9 @@ Passionate about dev, open source, networks, and building reliable systems
 
 ### 📊 GitHub Stats
   
-| <a href="https://github.com/sofiane-wattiez/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api?username=sofiane-wattiez&show_icons=true&include_all_commits=true&theme=buefy&hide_border=true" alt="Sofiane github stats" /></a> | <a href="https://github.com/sofiane-wattiez/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sofiane-wattiez&include_all_commits=true&langs_count=10&layout=compact&theme=buefy&hide_border=true" /></a> |
+| <a href="https://github.com/sofiane-wattiez?tab=repositories"><img align="center" src="https://github-readme-stats.vercel.app/api?username=sofiane-wattiez&show_icons=true&include_all_commits=true&theme=buefy&hide_border=true" alt="Sofiane's GitHub stats" /></a> | <a href="https://github.com/sofiane-wattiez?tab=repositories"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sofiane-wattiez&langs_count=10&layout=compact&theme=buefy&hide_border=true" alt="Most used languages in my public repositories" /></a> |
 | ------------- | ------------- |
 
-<div style="display: flex; justify-content: space-between; align-items: flex-start; margin-top: 20px;">
-    <!-- Left Column: Metrics -->
-    <div style="flex: 1; max-width: 40%;">
-        <img align="left" width="60%" alt="if you see this, it means my metrics are not working" src="https://github.com/sofiane-wattiez/Sofiane-Wattiez/blob/main/github-metrics.svg">
-    </div>
-  
-<!-- [![Top Languages Card](https://github-readme-stats.vercel.app/api/top-langs/?username=sofiane-wattiez&include_all_commits=true&count_private=True&langs_count=10&hide=html,procfile&theme=gotham)](https://github.com/sofiane-wattiez/github-readme-stats) -->
+![GitHub activity and public repository metrics](./github-metrics.svg)
+
 ---
