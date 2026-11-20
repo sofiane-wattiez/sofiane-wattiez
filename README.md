@@ -76,6 +76,6 @@ Passionate about dev, open source, networks, and building reliable systems
 | <a href="https://github.com/sofiane-wattiez?tab=repositories"><img align="center" src="https://github-readme-stats.vercel.app/api?username=sofiane-wattiez&show_icons=true&include_all_commits=true&theme=buefy&hide_border=true" alt="Sofiane's GitHub stats" /></a> | <a href="https://github.com/sofiane-wattiez?tab=repositories"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sofiane-wattiez&langs_count=10&layout=compact&theme=buefy&hide_border=true" alt="Most used languages in my public repositories" /></a> |
 | ------------- | ------------- |
 
-![GitHub activity and public repository metrics](./github-metrics.svg)
+![Public GitHub activity metrics](./github-metrics.svg)
 
 ---

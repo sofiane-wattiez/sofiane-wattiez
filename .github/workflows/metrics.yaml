@@ -36,18 +36,10 @@ jobs:
           output_action: commit
           user: ${{ github.repository_owner }}
           template: classic
-          base: header, activity, community, repositories, metadata
+          # The workflow token only enumerates this repository. Keep profile
+          # activity here; the README's stats cards cover public repositories.
+          base: header, activity, community, metadata
           base_indepth: true
           config_octicon: true
           config_timezone: Europe/Paris
           config_twemoji: true
-          plugin_languages: true
-          plugin_languages_analysis_timeout: 15
-          plugin_languages_analysis_timeout_repositories: 7.5
-          plugin_languages_categories: markup, programming
-          plugin_languages_colors: github
-          plugin_languages_indepth: true
-          plugin_languages_limit: 8
-          plugin_languages_other: true
-          plugin_languages_sections: most-used
-          plugin_languages_threshold: 0%
